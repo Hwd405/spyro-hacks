@@ -1,0 +1,47 @@
+v1.2.0 - ??? ?? 202?
+--------------------
+* Added Lumi skin.
+
+
+v1.1.1 - Jan 22 2023
+--------------------
+* Updated system call to allow files with spaces in their paths to be used.
+* Removed PAL version support due to Libcrypt issues.
+* Updated README.
+
+
+v1.1.0 - Jan 19 2023
+--------------------
+* Refactored code.
+* dumpsxiso now sends output files to a subdirectory.
+* Updated Moby shuffling to include more classes, including eggs and extra life jars.
+  * These have been given some new hiding places not present in the original game.
+* Added alternate Spyro colours.
+* There is now a small chance Spyro's name will also be changed.
+* Text colours are now randomised.
+* Portals in later worlds may now be shuffled.
+* Updated egg and gem requirement randomisers to more closely match original values, and to output the generated values to a txt file.
+* Added a colour randomisation for some Mobys.
+* Updated much of the command line appearance, and added some sound effects.
+* Updated and added some level and dragon names.
+* Added error correction functionality.
+* Fixed a bug in the level name generator which caused the block length to be calculated incorrectly.
+* Fixed an issue where the Sorceress would consistently open upon collecting 100 eggs.
+* Updated README.
+
+
+v1.0.2 - Dec 13 2022
+--------------------
+* Provided a fix for a code generation issue.
+
+
+v1.0.1 - Dec 13 2022
+--------------------
+* Tweaked some of the text outputs.
+* Updated loading skybox randomiser to mitigate possible crashes.
+* Added changelog.
+
+
+v1.0.0 - Dec 12 2022
+--------------------
+* Initial release.
