@@ -1,0 +1,24 @@
+<iso_project image_name="mkpsxiso.bin" cue_sheet="mkpsxiso.cue">
+    <track type="data">
+        <identifiers system="PLAYSTATION" application="PLAYSTATION" creation_date="0000091421040600+36" modification_date="1999090523300000+0"/>
+        <license file="data/license_data.dat"/>
+        <default_attributes gmt_offs="36" xa_attrib="32" xa_perm="1365" xa_gid="0" xa_uid="0"/>
+        <directory_tree gmt_offs="0">
+            <file name="SYSTEM.CNF" source="data/SYSTEM.CNF" type="data"/>
+            <file name="SCUS_944.67" source="data/SCUS_944.67" type="data"/>
+            <dummy sectors="290"/>
+            <file name="WAD.WAD" source="data/WAD.WAD" type="data"/>
+            <dummy sectors="8301"/>
+            <file name="SPEECH.STR" source="data/SPEECH.STR" type="mixed"/>
+            <dir name="CRASHBSH" source="data/CRASHBSH" gmt_offs="0">
+                <file name="SHELL.EXE" source="data/CRASHBSH/SHELL.EXE" type="data"/>
+                <file name="CRASHBSH.DAT" source="data/CRASHBSH/CRASHBSH.DAT" type="data"/>
+            </dir>
+            <file name="3MN_BLNK.DAT" source="data/3MN_BLNK.DAT" type="data"/>
+            <file name="SPEECH2.STR" source="data/SPEECH2.STR" type="mixed"/>
+            <file name="SPEECH3.STR" source="data/SPEECH3.STR" type="mixed"/>
+            <file name="SPEECH4.STR" source="data/SPEECH4.STR" type="mixed"/>
+            <file name="SPEECH5.STR" source="data/SPEECH5.STR" type="mixed"/>
+        </directory_tree>
+    </track>
+</iso_project>
